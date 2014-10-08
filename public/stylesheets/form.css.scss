@@ -1,0 +1,52 @@
+$accentGreen: #b7ff0f;
+
+.form {
+	display: inline;
+	margin: 0 auto;
+	text-align: center;
+	width: 50%;
+	z-index: 10;
+}
+
+#search {
+	z-index: 10;
+
+	input {
+		background-color: #222;
+		border: none;
+		border-radius: 5px;
+		color: #888;
+		height: 40px;
+		font-size: 1.25em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-style: italic;
+		margin: 15px;
+		outline: none;
+		text-align: center;
+		width: 200px;
+	}
+
+
+	input[type=submit]:hover {
+		border: 1px solid $accentGreen;
+		box-shadow: 0 0 5px $accentGreen;
+		color: $accentGreen;	
+	}
+
+	input[type=placeholder]{
+		color: #888;
+	}
+
+	select {
+		background-color: #222;
+		border: none;
+		color: #888;
+		font-size: 1.25em;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-style: italic;
+		height: 40px;
+	}
+
+}

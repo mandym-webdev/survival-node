@@ -1,0 +1,21 @@
+html
+  head
+    title!= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/codemirror.css')
+    link(rel='stylesheet', href='/stylesheets/foundation.min.css')
+    link(rel='stylesheet', href='/stylesheets/normalize.css')
+  body
+    div(class="large-12 medium-12 small-12")
+      div.header
+        h1!= message
+        p My name is Sam. I'm a web developer in DC looking for a cool new place to work. I'm a fast-learning, problem solving juggernaut who loves nothing more than a good challenge.
+        a(href="/contact") contact
+    div(class="large-12 medium-12 small-12")
+      div.content
+        h3 Skills
+        p Ruby - Ruby on Rails - SQL - postrges - Javascript - Problem Solving - Debugging
+    div.challenge
+    script(src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js")
+    script(src="/scripts/codemirror.js")
+    script(src="/scripts/app.js")
